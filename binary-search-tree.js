@@ -172,8 +172,12 @@ newTree.insert(6);
 newTree.insert(10);
 newTree.insert(7);
 newTree.insert(9);
-console.log(newTree.root)
+console.log(newTree.find(9));
+console.log(newTree.height());
+console.log(newTree.depth());
 console.log(newTree.levelOrder());
 console.log(newTree.preorder());
 console.log(newTree.inorder());
 console.log(newTree.postorder());
+console.log(newTree.balanced());
+
